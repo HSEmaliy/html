@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Проектый семинар</title>
+</head>
+<body>
+    <h1>Zulip</h1>
+    <div>Кол-во сообщений в zulip: {{my_zulip}}</div>
+    <div>График Zulip {{bargrafZul}}</div>
+    <div>График линейный Zulip {{LingrafZul}}</div>
+    <div>Список комнат: {{chanels}}</div>
+    <h1>Jitsi</h1>
+    <div>Кол-во посящёных занятий в Jitsi: {{my_jitsi}}</div>
+    <div>График Jitsi: {{barjitsi}}</div>
+    <div>График линейный Jitsi: {{Linjitsi}}</div>
+    <div>Список комнат: {{rooms}}</div>
+    <h1>Taiga</h1>
+    <div>Taiga юзерстори {{userst}}</div>
+    <div>Taiga задания {{task}}</div>
+    <dir>Taiga график {{TaigaGraf}}</div>
+    <h1>Git</h1>
+    <div>Кол-во коммитов в git: {{my_git}}</div>
+    <div>Список каналов: {{channelsGit}}</div>
+    <div>График GIT {{GitbarGraf}}</div>
+
+</body>
+</html>
